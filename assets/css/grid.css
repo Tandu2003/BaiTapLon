@@ -7,6 +7,7 @@
 .grid.wide {
     max-width: 1200px;
     margin: 0 auto;
+<<<<<<< HEAD
 }
 
 .row {
@@ -520,4 +521,6 @@
     .wide .l-o-11 {
         margin-left: 91.66667%;
     }
+=======
+>>>>>>> a7c9ed234e5c48b3a64efe74074bfe40206194b1
 }
