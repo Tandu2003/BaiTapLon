@@ -28,7 +28,6 @@ html {
     line-height: 1.6rem;
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 
@@ -60,6 +59,44 @@ html {
 .btn.btn-signin {
     height: 32px;
     font-size: 1.2rem;
-=======
->>>>>>> a7c9ed234e5c48b3a64efe74074bfe40206194b1
+}
+
+
+/* pagination */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination-item {
+    padding: 0 15px;
+}
+
+.pagination-item--active .pagination-item-link {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination-item .pagination-item-link:hover {
+    box-shadow: 0 0 3px #333;
+}
+
+.pagination-item-link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #999;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    min-width: 40px;
+    border-radius: 3px;
+}
+
+.pagination-item .pagination-item-link--disable:hover {
+    cursor: default;
+    box-shadow: none;
 }
