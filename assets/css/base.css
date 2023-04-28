@@ -28,7 +28,6 @@ html {
     line-height: 1.6rem;
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 
@@ -60,6 +59,4 @@ html {
 .btn.btn-signin {
     height: 32px;
     font-size: 1.2rem;
-=======
->>>>>>> a7c9ed234e5c48b3a64efe74074bfe40206194b1
 }
