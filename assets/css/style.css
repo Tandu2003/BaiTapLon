@@ -933,7 +933,6 @@ border-color: red green blue yellow */
     -webkit-line-clamp: 2;
 }
 
-
 /* home filter */
 
 .home-filter {
@@ -977,8 +976,7 @@ border-color: red green blue yellow */
 .home-filter-sort-list {
     position: absolute;
     top: 100%;
-    left: 0;
-    right: 0;
+    left: 0; right: 0;
     border-radius: 3px;
     background-color: var(--white-color);
     margin: 0;
@@ -1149,7 +1147,7 @@ border-color: red green blue yellow */
     display: none;
 }
 
-.home-product-item__save input:checked+label {
+.home-product-item__save input:checked + label {
     font-weight: 900;
     color: red;
 }
