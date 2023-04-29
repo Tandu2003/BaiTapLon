@@ -777,7 +777,8 @@ border-color: red green blue yellow */
 
 .header__sort-item:first-child .header__sort-link::before {
     display: none;
-=======
+}
+
 .container {
     background-color: var(--contain-color);
     padding-top: 24px;
